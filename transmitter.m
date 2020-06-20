@@ -36,4 +36,4 @@ carrier = cos(2*pi*fc*t);
 sig_out = [carrier carrier sig.*carrier carrier];
 
 %% Transmit by the ultrasounic speaker.
-sound(sig_out, fs);
+%sound(sig_out, fs);
